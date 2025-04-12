@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body>
+    <h1>Registration Form</h1>
+    <form>
+        <label for="first-name">
+          First Name<span style="color: rgb(12, 12, 12);">*</span>:
+        </label><br>
+        <input type="text" id="first-name" name="first-name" required>
+        <br><br>
+      
+        <label for="last-name">
+          Last Name<span style="color: rgb(22, 21, 21);">*</span>:
+        </label><br>
+        <input type="text" id="last-name" name="last-name" required>
+        <br><br>
+      
+        <label for="email">
+          Email Address<span style="color: rgb(19, 17, 17);">*</span>:
+        </label><br>
+        <input type="email" id="email" name="email" required>
+        <br><br>
+      
+        <label for="password">
+          Password<span style="color: rgb(10, 10, 10);">*</span>:
+        </label><br>
+        <input type="password" id="password" name="password" required>
+        <br><br>
+      
+        <label for="confirm-password">
+          Confirm Password<span style="color: rgb(5, 5, 5);">*</span>:
+        </label><br>
+        <input type="password" id="confirm-password" name="confirm-password" required>
+        <br><br>
+      
+        <label for="birthday">
+          Birthday:
+        </label><br>
+        <input type="date" id="birthday" name="birthday">
+        <br><br>
+      </form>
+      <h2>Gender Identity</h2>
+        <input type="radio" required>
+        <label for="male">Male</label><br>
+
+        <input type="radio" required>
+        <label for="female">Female</label><br>
+
+        <input type="radio" required>
+        <label for="female">Female</label><br>
+    
+        <h3> A short Introduction about myself</h3>
+        <textarea></textarea>
+
+        <div> <label for="language">Favourite language
+            <select name="choice">
+                <option value="first">java</option>
+                <option value="second">javascript</option>
+                <option value="third">python</option>
+              </select>
+        </label><br>
+        </div>
+        
+
+        <input type="checkbox" id="emailUpdates" name="emailUpdates">
+        <label for="emailUpdates">Yes, I would like to receive periodic email updates</label><br><br>
+
+        <button id="createAccount">Create Account</button><br><br>
+
+        <p>
+        <span style="color: rgb(11, 11, 11);">*</span>Indicates required fields
+        </p>
+</body>
+</html>
